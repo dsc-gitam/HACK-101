@@ -14,6 +14,10 @@
   src: url(./Blackout\ Sunrise.ttf);
 }
 
+*{
+  overflow-x: hidden;
+}
+
 :root {
   --blue: #0000ff;
   --indigo: #3d5afe;

@@ -5031,7 +5031,7 @@ a:not(.heading-brand) {
   font-family: myFirstFont;
   color: var(--success);
   font-weight: 800;
-  font-size: 2.75rem; }
+  font-size: 1.75rem; }
 
 .svg-icon {
   display: -ms-inline-flexbox;

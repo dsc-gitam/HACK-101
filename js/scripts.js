@@ -32,6 +32,6 @@ var x = setInterval(function() {
       console.log(btn.classList)
       btn.classList.remove('disabled')
     })
-    document.getElementById("demo").innerHTML = "Contest In Execution...";
+    document.getElementById("demo").innerHTML = "Executing Contest!!! Join now👆";
   }
 }, 1000);

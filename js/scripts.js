@@ -28,6 +28,10 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.querySelectorAll('.contest-btn').forEach((btn)=>{
+      console.log(btn.classList)
+      btn.classList.remove('disabled')
+    })
+    document.getElementById("demo").innerHTML = "Contest In Execution...";
   }
 }, 1000);

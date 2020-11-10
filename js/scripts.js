@@ -4,7 +4,7 @@ $(function () {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 4, 2020 16:00:00").getTime();
+var countDownDate = new Date("Nov 15, 2020 16:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
